@@ -29,7 +29,7 @@ steps:
     script: |
       echo $(Build.Repository.Uri)
       echo shiftleft code-scan -s .
-  displayName: Showing ID
+  displayName: chkp-ShiftLeft
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
