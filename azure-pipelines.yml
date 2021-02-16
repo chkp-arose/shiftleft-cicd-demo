@@ -28,7 +28,7 @@ steps:
   inputs:
     script: |
       echo $(Build.Repository.Uri)
-      echo shiftleft code-scan -s $(Build.Repository.Uri)
+      echo shiftleft code-scan -s .
   displayName: Showing ID
 - script: |
     echo Add other tasks to build, test, and deploy your project.
