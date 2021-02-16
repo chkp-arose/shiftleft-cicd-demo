@@ -28,6 +28,7 @@ steps:
   inputs:
     script: |
       echo $(Build.Repository.Uri)
+      chmod +x shiftleft
       ./shiftleft code-scan -s .
   displayName: chkp-ShiftLeft
 - script: |
